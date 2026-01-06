@@ -11,7 +11,7 @@ int main(){
             printf("Invalid");
             continue;
         }
-        else if (a == b || b == c || c || a){
+        else if (a == b || b == c || c == a){
             if (a == b && b == c) printf("Equuilateral");
             else printf("Isosceles");
             continue;
